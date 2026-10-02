@@ -1,0 +1,38 @@
+# Object files
+*.o
+*.obj
+*.elf
+
+# Libraries
+*.a
+*.la
+*.lo
+
+# Executables
+sv6256p_monitor
+sv6256p_demo
+ssv_dual_link_test
+ssv_dual_link_test.exe
+
+# Debug
+*.dSYM/
+
+# Build artifacts
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.pcap
+build_clean/
+build-win/
+power_channel_matrix.log
+
+# Excluded repository directories
+docs/
+stress-results/
+tmp/
